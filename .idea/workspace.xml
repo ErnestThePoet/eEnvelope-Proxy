@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added principle illustration image">
+    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added README">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerRequestHandler.java" afterDir="false" />
     </list>
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667984618267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added README">
+      <created>1667985947549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667985947549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +124,7 @@
     <MESSAGE value="adaption made" />
     <MESSAGE value="added key and config" />
     <MESSAGE value="added principle illustration image" />
-    <option name="LAST_COMMIT_MESSAGE" value="added principle illustration image" />
+    <MESSAGE value="added README" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README" />
   </component>
 </project>

@@ -2,6 +2,7 @@
 
 使用Java编写的HTTP代理服务器，使用电子信封加密策略对数据传输进行加密。  
 电子信封加密原理：  
+
 <image src="https://github.com/ErnestThePoet/eEnvelope-Proxy/blob/master/principles.jpg"/>
 
 ## 使用方法
