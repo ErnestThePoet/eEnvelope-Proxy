@@ -70,7 +70,7 @@ public class ServerRequestHandler extends RequestHandler implements Runnable {
 
     @Override
     public void run() {
-        Log.info("Negotiating application key with client");
+        Log.info("Sending server certificate to client");
 
         ServerHandshakeController handshakeController = new ServerHandshakeController(this.clientSocket);
 

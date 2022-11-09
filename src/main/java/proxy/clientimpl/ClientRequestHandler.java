@@ -119,7 +119,7 @@ public class ClientRequestHandler extends RequestHandler implements Runnable {
             return;
         }
 
-        Log.info("Negotiating application key for " + host + path);
+        Log.info("Getting server certificate for " + host + path);
 
         ClientHandshakeController handshakeController
                 =new ClientHandshakeController(this.serverSocket);
