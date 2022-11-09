@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="adaption made">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EeProxyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/certificate/CertificateProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/certificate/CertificateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/certificate/impl/ErnestCertificateProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/certificate/impl/ErnestCertificateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/EeProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/clientimpl/ClientConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/clientimpl/ClientProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/serverimpl/ServerConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/serverimpl/ServerProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/encoding/Utf8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/encryption/Aes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/encryption/Rsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/encryption/objs/AesKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/hash/Sha384.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crypto/keyex/Rsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handshake/ClientHandshakeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handshake/ServerHandshakeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/EeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientEeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerEeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ByteArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/http/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/http/objs/HostAndShortenPathResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/http/objs/HostPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/http/objs/ReplaceHostResult.java" afterDir="false" />
+    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added key and config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +18,9 @@
         <option value="Record" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +75,21 @@
       <option name="presentableId" value="Default" />
       <updated>1667963112836</updated>
     </task>
+    <task id="LOCAL-00001" summary="adaption made">
+      <created>1667983244915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667983244915</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added key and config">
+      <created>1667983261550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667983261550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adaption made" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaption made" />
+    <MESSAGE value="added key and config" />
+    <option name="LAST_COMMIT_MESSAGE" value="added key and config" />
   </component>
 </project>
