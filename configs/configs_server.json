@@ -1,0 +1,4 @@
+{
+    "port": 17750,
+    "proxyPass": "localhost:8897"
+}
