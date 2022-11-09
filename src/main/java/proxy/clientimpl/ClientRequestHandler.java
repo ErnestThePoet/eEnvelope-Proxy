@@ -124,7 +124,7 @@ public class ClientRequestHandler extends RequestHandler implements Runnable {
         ClientHandshakeController handshakeController
                 =new ClientHandshakeController(this.serverSocket);
 
-        var publicKey = handshakeController.getPublicKey();
+        var publicKey = handshakeController.getPublicKey(host);
 
         if(publicKey==null){
             Log.error("Failed to get server public key for "+host+path);

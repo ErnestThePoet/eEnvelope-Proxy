@@ -17,7 +17,7 @@ public class ClientHandshakeController {
         this.serverSocket = serverSocket;
     }
 
-    public byte[] getPublicKey() {
+    public byte[] getPublicKey(String host) {
         try {
             this.serverSocket.getOutputStream().write(Utf8.decode("HELLO"));
             this.serverSocket.getOutputStream().flush();
@@ -41,7 +41,7 @@ public class ClientHandshakeController {
 
         CertificateValidator certificateValidator=CertificateValidator.getInstance();
 
-        if(!certificateValidator.validateCertificate(certificate)){
+        if(!certificateValidator.validateCertificate(certificate,host)){
             Log.error("Certificate validation failed");
             this.closeHostSocket();
             return null;
