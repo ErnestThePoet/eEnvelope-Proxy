@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added new line before image">
+    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added host param in CertificateValidator.validateCertificate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/certificate/CertificateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/certificate/CertificateValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/certificate/impl/ErnestCertificateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/certificate/impl/ErnestCertificateValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handshake/ClientHandshakeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handshake/ClientHandshakeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configs_client.json" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configs_client.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/configs_server.json" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configs_server.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/EeProxyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/EeProxyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/clientimpl/ClientConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/clientimpl/ClientConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/serverimpl/ServerConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/serverimpl/ServerConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientEeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientEeProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/clientimpl/ClientRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerEeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/serverimpl/ServerEeProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667986054483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added host param in CertificateValidator.validateCertificate">
+      <created>1667997212410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667997212410</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +145,7 @@
     <MESSAGE value="added principle illustration image" />
     <MESSAGE value="added README" />
     <MESSAGE value="added new line before image" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new line before image" />
+    <MESSAGE value="added host param in CertificateValidator.validateCertificate" />
+    <option name="LAST_COMMIT_MESSAGE" value="added host param in CertificateValidator.validateCertificate" />
   </component>
 </project>

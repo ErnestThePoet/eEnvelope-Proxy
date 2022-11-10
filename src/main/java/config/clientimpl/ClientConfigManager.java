@@ -23,6 +23,10 @@ public class ClientConfigManager {
         return config.getPort();
     }
 
+    public static Integer getTimeout(){
+        return config.getTimeout();
+    }
+
     public static boolean isTargetHost(String host){
         return config.getTargetHostPatterns().stream().anyMatch(host::matches);
     }
