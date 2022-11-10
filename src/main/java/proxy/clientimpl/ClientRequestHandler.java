@@ -13,6 +13,7 @@ import utils.http.HttpUtil;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.SocketException;
+import java.net.SocketTimeoutException;
 import java.security.SecureRandom;
 import java.util.Arrays;
 
@@ -82,7 +83,10 @@ public class ClientRequestHandler extends RequestHandler implements Runnable {
             }
             clientData = Arrays.copyOf(clientData, clientDataLength);
         } catch (IOException e) {
-            e.printStackTrace();
+            // when browser is using cache, client timeout often occurs
+            if(!(e instanceof SocketTimeoutException)){
+                e.printStackTrace();
+            }
             this.closeClientSocket();
             return;
         }
