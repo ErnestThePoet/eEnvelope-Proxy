@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="added timeout doc in README">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="207f739d-3c13-4868-9eda-a0f33d34dc4a" name="Changes" comment="prevent timeout printStackTrace in client proxy server to client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668045811006</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="prevent timeout printStackTrace in client proxy server to client">
+      <created>1668047205352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668047205352</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +159,7 @@
     <MESSAGE value="added host param in CertificateValidator.validateCertificate" />
     <MESSAGE value="added timeout" />
     <MESSAGE value="added timeout doc in README" />
-    <option name="LAST_COMMIT_MESSAGE" value="added timeout doc in README" />
+    <MESSAGE value="prevent timeout printStackTrace in client proxy server to client" />
+    <option name="LAST_COMMIT_MESSAGE" value="prevent timeout printStackTrace in client proxy server to client" />
   </component>
 </project>
